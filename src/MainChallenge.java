@@ -16,6 +16,8 @@ public class MainChallenge {
 
         System.out.println("The next highScore is " +
                 calculateScore(gameOver, score, levelCompleted, bonus));
+
+         System.out.println(displayHighScorePosition("Valen",10000));
     }
 
     public static int calculateScore(boolean gameOver, int score, int levelCompleted, int bonus) {
@@ -28,5 +30,24 @@ public class MainChallenge {
         }
 
         return finalScore;
+
+
+    }
+
+    public static String displayHighScorePosition(String name, int score) {
+        return name + "Managed to get into position" + calculateHighScorePosition(score) + " on the high score list";
+    }
+
+    public static int calculateHighScorePosition(int score) {
+        if (score >= 1000) {
+            return 1;
+        }
+        if (score >= 500 ) {
+            return 2;
+        }
+        if (score >= 100 ) {
+            return 3;
+        }
+        return 4;
     }
 }
