@@ -1,3 +1,5 @@
+package Module5;
+
 public class TeenNumberChecker {
     public static void main(String[] args) {
         System.out.println(hasTeen(19,99,129));

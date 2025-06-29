@@ -1,3 +1,5 @@
+package Module5;
+
 public class PlayingCat {
     public static void main(String[] args) {
         System.out.println(PlayingCat.isCatPlaying(true, 10));   // false

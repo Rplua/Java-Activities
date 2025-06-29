@@ -1,3 +1,5 @@
+package Module5;
+
 public class MinutesToYearDaysCalculator {
     public static void main(String[] args) {
         printYearsAndDays(525600);

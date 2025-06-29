@@ -1,3 +1,5 @@
+package Module5;
+
 public class IntEqualityPrinter {
     public static void main(String[] args) {
         printEqual(1,1,1);

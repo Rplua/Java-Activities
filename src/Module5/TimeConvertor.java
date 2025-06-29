@@ -1,3 +1,5 @@
+package Module5;
+
 public class TimeConvertor {
     public static void main(String[] args) {
         System.out.println(getDurationString(3945));   // 01h 05m 45s
