@@ -5,7 +5,7 @@ public class Animal {
     private String size;
     private double weight;
 
-    public Animal(String type, String size, double weight) {
+    public Animal(String type, String size) {
         this.type = type;
         this.size = size;
         this.weight = weight;
